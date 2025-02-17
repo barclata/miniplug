@@ -1,7 +1,13 @@
 DECLARE PLUGIN "miniplug.plugin"
 
+{
+  open Constructthings
+}
 
 VERNAC COMMAND EXTEND MiniPlugin CLASSIFIED AS QUERY
-
 | [ "MiniPlug" ] -> { Feedback.msg_info (Pp.str "Hello, I am MiniPlug.") }
+END
+
+VERNAC COMMAND EXTEND MiniPlugSideEff CLASSIFIED AS SIDEFF
+| [ "MiniString" ] -> { declare_empty_string () }
 END
