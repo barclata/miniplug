@@ -1,0 +1,5 @@
+(coq.theory
+ (name MiniPlug)
+ (package miniplug)
+ (plugins miniplug.plugin)
+ (modules (:standard)))

@@ -1,0 +1,7 @@
+DECLARE PLUGIN "miniplug.plugin"
+
+
+VERNAC COMMAND EXTEND MiniPlugin CLASSIFIED AS QUERY
+
+| [ "MiniPlug" ] -> { Feedback.msg_info (Pp.str "Hello, I am MiniPlug.") }
+END
