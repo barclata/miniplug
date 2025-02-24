@@ -1,19 +1,16 @@
 # MiniPlug
 
-### Important Note:
+## First Time Build
 
-When building a local project. You **MUST** make sure to commit to the branch in order for it to get updated by the `opam install .`
+1. `dune build`
+2. `opam install -w .` (if you just want to track the most recent commit on master, not working state of the source, then remove the `-w`)
 
-## Build and Install Steps
+## Development/Update Builds
 
-1. First make sure you have a clean environment.
-
-- Run `opam remove miniplug`
-- Remove directory if it exists `~/.opam/<current_switch>/lib/coq/user-contrib/MiniPlug` (I noticed that this was sometimes not getting deleted by the opam remove)
-- Run `dune clean` and remove the pre-existing `miniplug.opam` file
-
-2. Build: `dune build`
-3. Install: `opam install .`
+1. `dune clean`
+2. `dune build`
+3. `opam update`
+4. `opam upgrade`
 
 ## Usage
 
