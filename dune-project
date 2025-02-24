@@ -1,7 +1,7 @@
-(lang dune 3.16)
+(lang dune 3.17)
 (using coq 0.8)
 (name miniplug)
-(version 0.1)
+(version 0.2)
 
 (package
  (name miniplug)

@@ -1,2 +1,2 @@
 From Coq Require Export String.
-Declare ML Module "miniplug:miniplug.plugin".
+Declare ML Module "miniplug.plugin".

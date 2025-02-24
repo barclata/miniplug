@@ -1,4 +1,3 @@
-(* Require Strings.String. *)
 From MiniPlug Require Import Loader.
 
 MiniPlug.
