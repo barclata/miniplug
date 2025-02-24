@@ -1,5 +1,5 @@
 (* Require Strings.String. *)
-Require Import Loader.
+From MiniPlug Require Import Loader.
 
 MiniPlug.
 MiniString.

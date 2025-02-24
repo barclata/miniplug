@@ -1,2 +1,2 @@
-Require Strings.String.
+From Coq Require Export String.
 Declare ML Module "miniplug:miniplug.plugin".
