@@ -1,5 +1,5 @@
-Require Strings.String.
-Require Import Loader. (* Does not work in proof General (_CoqProject needed?) *)
+(* Require Strings.String. *)
+Require Import Loader.
 
 MiniPlug.
 MiniString.
